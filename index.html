@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="wiewport" content="width-device-width, initial-scale-1.0">
+<title>Assignment 2-Program za obavljanje osnovnih aritmetickih operacija</title>
+</head>
+<body>
+<script>
+        var unos1 = parseInt(prompt("Unesi prvi broj"));
+        var znak = prompt("Unesi znak");
+        var unos2 = parseInt(prompt("Unesi drugi broj"));
+        var rezultat;
+		switch (znak) {
+            case "+":
+                rezultat = unos1 + unos2;
+                break;
+            case "-":
+                rezultat = unos1 - unos2;
+                break;
+            case "*":
+                rezultat = unos1 * unos2;
+                break;
+            case "/":
+                rezultat = unos1 / unos2;
+                break;
+            default:
+                break;
+        }
+
+        alert("Rezultat je: " + rezultat);
+
+
+
+</script>
+
+</body>
+</html>
